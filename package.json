@@ -1,0 +1,23 @@
+{
+  "name": "yt-video-player",
+  "version": "0.0.1",
+  "description": "A sample Node.js app using Express 4",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.5.2",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^2.6.1"
+  },
+  "dependencies": {
+    "office-ui-fabric-react": "^4.7.0",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1"
+  },
+  "author": "Nico Lance Medina",
+  "license": "MIT"
+}
