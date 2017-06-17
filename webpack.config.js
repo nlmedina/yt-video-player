@@ -1,4 +1,5 @@
 var path = require('path');
+var Dotenv = require('dotenv-webpack');
 
 module.exports = {
   entry: './src/index.js',
@@ -17,7 +18,17 @@ module.exports = {
             presets: ['react', 'env']
           }
         }
+      },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader']
       }
     ]
-  }
+  },
+  plugins: [
+    new Dotenv({
+      path: './.env'
+    })
+  ],
+  devtool: 'cheap-eval-source-map'
 };

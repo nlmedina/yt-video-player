@@ -4,19 +4,27 @@
   "description": "A sample Node.js app using Express 4",
   "scripts": {
     "build": "webpack",
-    "watch": "webpack --watch"
+    "watch": "webpack --watch",
+    "server": "webpack-dev-server --open"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
     "babel-loader": "^7.0.0",
     "babel-preset-env": "^1.5.2",
     "babel-preset-react": "^6.24.1",
-    "webpack": "^2.6.1"
+    "css-loader": "^0.28.4",
+    "dotenv-webpack": "^1.5.0",
+    "style-loader": "^0.18.2",
+    "webpack": "^2.6.1",
+    "webpack-dev-server": "^2.4.5"
   },
   "dependencies": {
-    "office-ui-fabric-react": "^4.7.0",
+    "axios": "^0.16.2",
     "react": "^15.6.1",
-    "react-dom": "^15.6.1"
+    "react-dom": "^15.6.1",
+    "semantic-ui-css": "^2.2.10",
+    "semantic-ui-react": "^0.68.5",
+    "youtube-api-search": "^0.0.5"
   },
   "author": "Nico Lance Medina",
   "license": "MIT"
